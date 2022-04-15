@@ -3,7 +3,7 @@ package Leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Leeetcode560 {
+public class Leetcode560 {
     public int subarraySum(int[] nums, int k) {
         int pre = 0;
         int count = 0;

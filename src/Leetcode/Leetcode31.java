@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class Leeetcode31 {
+public class Leetcode31 {
     public void nextPermutation(int[] nums) {
         int leftIndex = nums.length - 1;
         for (; leftIndex > 0 && nums[leftIndex] <= nums[leftIndex - 1]; leftIndex--) {}
