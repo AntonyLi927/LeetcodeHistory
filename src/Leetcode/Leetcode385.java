@@ -42,7 +42,7 @@ public class Leetcode385 {
     class NestedInteger {
 
         public  NestedInteger() {
-
+            //
         }
 
         public NestedInteger(int a) {

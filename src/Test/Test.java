@@ -75,14 +75,17 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Date date = new Date(1642125538226L);
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-        String res = simpleDateFormat.format(date);
-        System.out.println(res);
-
-        Date date1 = new Date(System.currentTimeMillis() + 1000 * 60);
-        System.out.println(date1.getTime());
-        int re = (int) (Math.random() * (1000000 - 100000 + 1));
-        System.out.println(re);
+//        Date date = new Date(1642125538226L);
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+//        String res = simpleDateFormat.format(date);
+//        System.out.println(res);
+//
+//        Date date1 = new Date(System.currentTimeMillis() + 1000 * 60);
+//        System.out.println(date1.getTime());
+//        int re = (int) (Math.random() * (1000000 - 100000 + 1));
+//        System.out.println(re);
+        char a = '9';
+        char b = '3';
+        System.out.println(b < a);
     }
 }
