@@ -1,6 +1,5 @@
 package 剑指offer;
 
-import com.sun.source.tree.Tree;
 import utils.TreeNode;
 
 import java.util.LinkedList;
@@ -42,7 +41,7 @@ public class JZ55 {
      */
     public int maxDepth1(TreeNode root) {
         if(root == null) return 0;
-        List<TreeNode> queue = new LinkedList<>() {{ add(root); }}, tmp;
+        List<TreeNode> queue = new LinkedList<TreeNode>() {{ add(root); }}, tmp;
         int res = 0;
         while(!queue.isEmpty()) {
             tmp = new LinkedList<>();

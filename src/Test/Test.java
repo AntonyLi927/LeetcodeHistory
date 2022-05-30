@@ -84,8 +84,13 @@ public class Test {
 //        System.out.println(date1.getTime());
 //        int re = (int) (Math.random() * (1000000 - 100000 + 1));
 //        System.out.println(re);
-        char a = '9';
-        char b = '3';
-        System.out.println(b < a);
+//        char a = '9';
+//        char b = '3';
+//        System.out.println(b < a);
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        String s = list.toString();
+        System.out.println(s);
     }
 }
